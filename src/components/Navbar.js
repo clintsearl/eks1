@@ -2,6 +2,7 @@ import React, {useState}from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+
 class Navbar extends React.Component {
   constructor(props) {
     super(props);
@@ -11,7 +12,7 @@ class Navbar extends React.Component {
     };
     // this.onClick = this.onClick.bind(this);
   }
-
+// for smaller screens
   openNav() {
     this.setState({
       collapse: !this.state.collapse,
@@ -30,7 +31,6 @@ class Navbar extends React.Component {
           <Router>
             <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
               <MDBNavbarBrand href="#">
-                <strong>Navbar</strong>
               </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={()=>{this.openNav()}} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
