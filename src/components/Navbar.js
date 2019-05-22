@@ -1,6 +1,6 @@
 import React, {useState}from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem} from 'mdbreact';
+
 
 
 class Navbar extends React.Component {
@@ -26,29 +26,41 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div>
+      
+      <div> 
         <header>
-          <Router>
             <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
               {/* responsive */}
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={()=>{this.openNav()}} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem >
-                  <a href='#top' onClick={()=>{this.closeNav()}}><MDBNavbarBrand><strong>Home</strong></MDBNavbarBrand></a>
+                  <a href='/#top' onClick={()=>{this.closeNav()}}><MDBNavbarBrand><strong>Home</strong></MDBNavbarBrand></a>
                   </MDBNavItem>
                   <MDBNavItem>
-                  <a href='#about' onClick={()=>{this.closeNav()}}><MDBNavbarBrand>About Us</MDBNavbarBrand></a>
+                  <a href='/#about' onClick={()=>{this.closeNav()}}><MDBNavbarBrand>About Us</MDBNavbarBrand></a>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <a href='#contact' onClick={()=>{this.closeNav()}}><MDBNavbarBrand>Contact Us</MDBNavbarBrand></a>
+                    <a href='/#contact' onClick={()=>{this.closeNav()}}><MDBNavbarBrand>Contact Us</MDBNavbarBrand></a>
                   </MDBNavItem>
+                  <MDBNavItem>
+              <MDBDropdown>
+                <MDBDropdownToggle nav caret>
+                  <div className="d-inline">More About Us</div>
+                </MDBDropdownToggle>
+                <MDBDropdownMenu className="dropdown" right>
+                  <MDBDropdownItem href="/AnneProfile">Anne</MDBDropdownItem>
+                  <MDBDropdownItem href="/EricProfile">Eric</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
+            </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-          </Router>
+            
+
         </header>
-      </div>
+        </div>
     );
   }
 }

@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import {Wrapper} from './MyStyled'
 
 
-function Contact() {
+function AnneProfile() {
     return(
-        <Wrapper id='contact'>
+        <Wrapper >
            
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt quod dolores dolorum cupiditate officiis odio eligendi provident a unde adipisci optio suscipit cumque, molestiae sunt nostrum ullam sed! Veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui fuga aspernatur voluptatum maiores temporibus repellendus commodi voluptatem! Quidem labore qui hic nam accusantium ea eos tenetur quia dolorem facilis?</div>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt quod dolores dolorum cupiditate officiis odio eligendi provident a unde adipisci optio suscipit cumque, molestiae sunt nostrum ullam sed! Veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui fuga aspernatur voluptatum maiores temporibus repellendus commodi voluptatem! Quidem labore qui hic nam accusantium ea eos tenetur quia dolorem facilis?</div>
@@ -14,4 +14,4 @@ function Contact() {
         </Wrapper>
     )
 }
-export default Contact
+export default AnneProfile
