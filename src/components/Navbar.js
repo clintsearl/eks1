@@ -30,13 +30,12 @@ class Navbar extends React.Component {
         <header>
           <Router>
             <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
-              <MDBNavbarBrand href="#">
-              </MDBNavbarBrand>
+              {/* responsive */}
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={()=>{this.openNav()}} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem >
-                  <a href='#top' onClick={()=>{this.closeNav()}}><MDBNavbarBrand>Home</MDBNavbarBrand></a>
+                  <a href='#top' onClick={()=>{this.closeNav()}}><MDBNavbarBrand><strong>Home</strong></MDBNavbarBrand></a>
                   </MDBNavItem>
                   <MDBNavItem>
                   <a href='#about' onClick={()=>{this.closeNav()}}><MDBNavbarBrand>About Us</MDBNavbarBrand></a>

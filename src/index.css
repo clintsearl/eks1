@@ -1,9 +1,40 @@
 .app{
     background-color: gray;
-    min-width:100vw;
-    scroll-behavior: smooth;
+    max-width:100vw;
+    min-height: 100%;
+    margin:0;
+    
+}
+
+#top, .picWelcome, .picAbout, .picContact{
+    
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-attachment: fixed;
+    
+    
 }
 #top{
-    background-image: url("./assets/temp1.png");
+background-image: url("./assets/temp1.png");
+height: 100vh;
+}
+
+
+.picWelcome {
+    background-image: url('./assets/temp2.png');
+    height: 50vh;
     
+    
+}
+.picAbout{
+    background-image: url('./assets/temp3.png');
+    height: 50vh;
+}
+.picContact{
+    background-image: url('./assets/temp4.png');
+    height: 50vh;
 }

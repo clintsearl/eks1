@@ -1,18 +1,33 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import eric from '../assets/temp-eric.png'
+import anne from '../assets/temp-anne.png'
 
 const Wrapper = styled.div`
-    background-color:black;
+    background-color:#66ccff;
     color:white;
+    height:100%;
+    padding-top:50px;
+`
+const Profile = styled.div`
+    display:grid;
+
+`
+const Pic = styled.img`
+    width:250px;
+    height:250px;
 `
 function About() {
-    return(
-        <Wrapper>
-           
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt quod dolores dolorum cupiditate officiis odio eligendi provident a unde adipisci optio suscipit cumque, molestiae sunt nostrum ullam sed! Veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui fuga aspernatur voluptatum maiores temporibus repellendus commodi voluptatem! Quidem labore qui hic nam accusantium ea eos tenetur quia dolorem facilis?</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt quod dolores dolorum cupiditate officiis odio eligendi provident a unde adipisci optio suscipit cumque, molestiae sunt nostrum ullam sed! Veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui fuga aspernatur voluptatum maiores temporibus repellendus commodi voluptatem! Quidem labore qui hic nam accusantium ea eos tenetur quia dolorem facilis?</div>
-            <h3 id='about'>About Us</h3>
+    return (
+        <Wrapper id='about'>
+
+            <h3 >About Us</h3>
+            <Profile>
+                <Pic src={eric} alt='Photo of Eric'/>
+            </Profile>
+            <Profile>
+                <Pic src={anne} alt='Photo of Anne'/>
+            </Profile>
 
         </Wrapper>
     )
