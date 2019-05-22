@@ -6,7 +6,7 @@ const Wrapper = styled.div`
     background-color:#66ccff;
     max-width:100vw;
     height:100%;
-    padding-top:50px;
+    padding:50px;
 `
 function Contact() {
     return(

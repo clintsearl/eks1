@@ -8,19 +8,16 @@
 
 #top, .picWelcome, .picAbout, .picContact{
     
-    min-height: 100%;
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
-    background-attachment: fixed;
-    
-    
+    background-attachment: fixed;   
 }
 #top{
-background-image: url("./assets/temp1.png");
-height: 100vh;
+    background-image: url("./assets/temp1.png");
+    height: 100vh;
 }
 
 
@@ -36,5 +33,5 @@ height: 100vh;
 }
 .picContact{
     background-image: url('./assets/temp4.png');
-    height: 50vh;
+    height: 80vh;
 }
