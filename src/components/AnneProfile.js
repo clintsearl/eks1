@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Wrapper} from './MyStyled'
-
+import {P_Wrapper, P_Pic, P_Header, P_Content} from './MyStyled'
+import anne from '../assets/temp-anne.png'
 
 function AnneProfile() {
     return(
-        <Wrapper >
-           
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt quod dolores dolorum cupiditate officiis odio eligendi provident a unde adipisci optio suscipit cumque, molestiae sunt nostrum ullam sed! Veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui fuga aspernatur voluptatum maiores temporibus repellendus commodi voluptatem! Quidem labore qui hic nam accusantium ea eos tenetur quia dolorem facilis?</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt quod dolores dolorum cupiditate officiis odio eligendi provident a unde adipisci optio suscipit cumque, molestiae sunt nostrum ullam sed! Veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis qui fuga aspernatur voluptatum maiores temporibus repellendus commodi voluptatem! Quidem labore qui hic nam accusantium ea eos tenetur quia dolorem facilis?</div>
-            <h3 >Contact Us</h3>
-
-        </Wrapper>
+        <P_Wrapper >
+           <P_Pic src={anne} alt="Anne"/>
+            <P_Header>Anne </P_Header>
+            <P_Content>Hey this is all about me here
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi quia!
+            </P_Content>
+        </P_Wrapper>
     )
 }
 export default AnneProfile

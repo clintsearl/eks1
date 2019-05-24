@@ -27,17 +27,13 @@ grid-area: picture;
     height:250px;
     padding:20px;
 `
-const Info = styled.p`
-    grid-area:info;
-    justify-self: center;
-    `
 function About() {
         return (
         <Wrapper id='about'>
 
             <h3 >About Us</h3>
             <Profile>
-                <Pic src={eric} alt='Photo of Eric'/>
+                <a href="/EricProfile"><Pic src={eric} alt='Photo of Eric'/></a>
                 <p>I'm Cool</p>
                 <p>I'm Cool</p>
                 <p>I'm Cool</p>
@@ -45,7 +41,7 @@ function About() {
                 <p>I'm Cool</p>
             </Profile>
             <Profile>
-                <Pic src={anne} alt='Photo of Anne'/>
+                <a href="/AnneProfile"><Pic src={anne} alt='Photo of Anne'/></a>
                 <p>I'm Cool</p>
                 <p>I'm Cool</p>
                 <p>I'm Cool</p>
