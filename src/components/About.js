@@ -6,17 +6,22 @@ import eric from '../assets/temp-eric.png'
 import anne from '../assets/temp-anne.png'
 
 
+
 const Profile = styled.div`  
 display:grid;
-grid-template-areas: 'picture info info info'
-                    'picture info info info';
+grid-template-columns: 2fr 1fr 1fr 1fr;
+grid-template-rows:auto;
+grid-template-areas: 'picture info1 info2 info3'
+                    'picture info4 info5 info6';
     @media (max-width: 700px){
-            grid-template-areas: 'picture'
-            'info'
-            'info'
-            'info'
-            'info'
-            'info';
+        grid-template-columns:1fr;
+        grid-template-areas: 'picture'
+            'info1'
+            'info2'
+            'info3'
+            'info4'
+            'info5'
+            'info6';
           justify-content:center;
       } 
 `
@@ -27,26 +32,35 @@ grid-area: picture;
     height:250px;
     padding:20px;
 `
+const ClickPic = styled.a`
+      grid-area: picture;
+`
+// const info
+
+
 function About() {
         return (
         <Wrapper id='about'>
 
             <h3 >About Us</h3>
             <Profile>
-                <a href="/EricProfile"><Pic src={eric} alt='Photo of Eric'/></a>
-                <p>I'm Cool</p>
-                <p>I'm Cool</p>
-                <p>I'm Cool</p>
-                <p>I'm Cool</p>
-                <p>I'm Cool</p>
+                <ClickPic href="/EricProfile"><Pic src={eric} alt='Photo of Eric'/></ClickPic>
+                <p style={{gridArea: "info1" }}>I'm Cool</p>
+                <p style={{gridArea: "info2" }}>I'm Cool</p>
+                <p style={{gridArea: "info3" }}>I'm Cool</p>
+                <p style={{gridArea: "info4" }}>I'm Cool</p>
+                <p style={{gridArea: "info5" }}>I'm Cool</p>
+                <p style={{gridArea: "info6" }}>I'm Cool</p>
+                
             </Profile>
             <Profile>
-                <a href="/AnneProfile"><Pic src={anne} alt='Photo of Anne'/></a>
-                <p>I'm Cool</p>
-                <p>I'm Cool</p>
-                <p>I'm Cool</p>
-                <p>I'm Cool</p>
-                <p>I'm Cool</p>
+                <ClickPic href="/AnneProfile"><Pic src={anne} alt='Photo of Anne'/></ClickPic>
+                <p style={{gridArea: "info1" }}>I'm Cool</p>
+                <p style={{gridArea: "info2" }}>I'm Cool</p>
+                <p style={{gridArea: "info3" }}>I'm Cool</p>
+                <p style={{gridArea: "info4" }}>I'm Cool</p>
+                <p style={{gridArea: "info5" }}>I'm Cool</p>
+                <p style={{gridArea: "info6" }}>I'm Cool</p>
             </Profile>
 
         </Wrapper>

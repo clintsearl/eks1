@@ -1,4 +1,4 @@
-import React, {useState}from 'react';
+import React, {useState} from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem} from 'mdbreact';
 
 
@@ -46,9 +46,9 @@ class Navbar extends React.Component {
                   <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <div className="d-inline">More About Us</div>
+                  <span className="d-xs">More About Us</span>
                 </MDBDropdownToggle>
-                <MDBDropdownMenu className="dropdown" right>
+                <MDBDropdownMenu>
                   <MDBDropdownItem href="/AnneProfile">Anne</MDBDropdownItem>
                   <MDBDropdownItem href="/EricProfile">Eric</MDBDropdownItem>
                 </MDBDropdownMenu>
