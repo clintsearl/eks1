@@ -8,12 +8,14 @@ import App from "./App";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker';
 import Navbar from "./components/Navbar";
+import NavbarPage from "./components/test";
 import EricProfile from "./components/EricProfile"
 import AnneProfile from './components/AnneProfile'
 
 ReactDOM.render( 
     <div>
         <Navbar/>
+        {/* <NavbarPage/> */}
     <Router>
         <Switch>
               <Route exact path='/' component={App}/>

@@ -35,3 +35,30 @@
     background-image: url('./assets/temp4.png');
     height: 80vh;
 }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+    h1{
+        color: red;
+    }
+    #top, .picWelcome, .picAbout, .picContact{
+    
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        background-attachment: scroll;   
+    }
+
+    /* .app{
+        background-color: gray;
+        max-width:100%;
+        min-height: 100%;
+        margin:0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex:auto;
+
+    } */
+    }

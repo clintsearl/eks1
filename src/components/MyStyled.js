@@ -1,7 +1,10 @@
 import styled from 'styled-components'
+import temp2 from '../assets/temp2.png'
+
+
 
 export const Wrapper = styled.div`
-    background-color:#66ccff;
+    background-color:#90caf9;
     max-width:100vw;  
     padding:50px;
 `
@@ -9,12 +12,26 @@ export const Wrapper = styled.div`
 //   P_ denotes the Profile page
 
 export const P_Wrapper = styled.div`
-    background-color:#66ccff;
-    max-width:100vw;
-    min-height:100vh;
+    background-color:#90caf9;
+    width:80vw;
+    margin-top:auto;
+    margin-right:auto;
+    margin-left:auto;
     display:grid;
     grid-template-columns:1fr 3fr 1fr;
-    grid-template-rows:1fr 3fr auto 2fr;
+    grid-template-rows:1fr 3fr 2fr;
+    
+`
+export const Background = styled.div`
+    background-image: url(${temp2});
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    min-height:100vh;
+    padding:10vh 0 10vh 0;
+    
+    
 `
 export const P_Pic = styled.img`
     width:250px;
@@ -32,5 +49,12 @@ export const P_Header = styled.h1`
 export const P_Content = styled.p`
     grid-column: 2 / 3;
     grid-row: 4 / 5;
-    
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+`
+//Navbar
+
+export const Navigation = styled.nav`
+    background-color:transparent;
+
+
 `

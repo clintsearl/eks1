@@ -19,6 +19,16 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script>
+    if(navigator.userAgent.match(/Trident\/7\./)) {
+      $('body').on("mousewheel", function () {
+          event.preventDefault();
+          var wd = event.wheelDelta;
+          var csp = window.pageYOffset;
+          window.scrollTo(0, csp - wd);
+      });
+  }
+</script>
     <style>
     html{
     scroll-behavior: smooth;

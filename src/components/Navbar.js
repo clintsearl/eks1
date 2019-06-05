@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem} from 'mdbreact';
 
-
+const color = "blue lighten-3"
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -23,13 +23,13 @@ class Navbar extends React.Component {
       collapse: false
     })
   }
+  
 
   render() {
     return (
       
-      <div> 
-        <header>
-            <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
+      
+            <MDBNavbar color={color} dark fixed='top' expand="md" scrolling transparent >
               {/* responsive */}
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={()=>{this.openNav()}} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
@@ -46,7 +46,7 @@ class Navbar extends React.Component {
                   <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="d-xs">More About Us</span>
+                  <span className="mr-2">More About Us</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem href="/AnneProfile">Anne</MDBDropdownItem>
@@ -57,10 +57,7 @@ class Navbar extends React.Component {
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-            
-
-        </header>
-        </div>
+   
     );
   }
 }

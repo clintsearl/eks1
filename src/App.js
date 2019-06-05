@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
 import styled from 'styled-components'
 import "./index.css";
-import temp2 from './assets/temp2.png'
 import Navbar from "./components/Navbar"
 import Contact from './components/Contact'
 import Welcome from './components/Welcome'
 import About from './components/About'
+import NavbarPage from "./components/test";
 
 
 const Wrapper = styled.div`
@@ -21,7 +21,8 @@ class App extends Component {
     return (
 
       <MDBContainer className='app'>
-        <Navbar />
+        {/* <Navbar /> */}
+        {/* <NavbarPage/> */}
         <MDBRow id='top' center>
           <MDBCol middle="true" sm="8" className="text-center">
             <h1>Welcome to Your MDB React App</h1>
