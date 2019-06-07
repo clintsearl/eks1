@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem} from 'mdbreact';
 
-const color = "blue lighten-3"
+const color = 'grey darken-4'
 
 class Navbar extends React.Component {
   constructor(props) {
