@@ -43,14 +43,22 @@ export const Background = styled.div`
     padding:10vh 0 10vh 0;  
 `
 export const LogoWrapper = styled.div`
-width:100%;
-background:rgba(255, 255, 255, 0.7);
+min-width:100%;
+background:rgba(0, 0, 0, 0.8);
 margin:0;
 padding:0;
-
 `
 export const LogoTag = styled.img`
-    opacity:1;
+    width:40%;
+    height:auto;
+    @media (max-width:1024px){
+        width:60%;
+    }
+    @media (max-width: 700px){
+        width:80%;
+        height:auto;
+
+    }
 `
 export const P_Pic = styled.img`
     width:250px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {P_Wrapper, P_Pic, P_Header, P_Content, Background} from './MyStyled'
-import anne from '../assets/temp-anne.png'
+import anne from '../assets/temp-anneW.png'
 
 function AnneProfile() {
     return(

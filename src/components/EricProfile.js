@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {P_Wrapper, P_Pic, P_Header, P_Content, Background} from './MyStyled'
-import eric from '../assets/temp-eric.png'
+import eric from '../assets/temp-ericW.png'
 
 function EricProfile() {
     return(

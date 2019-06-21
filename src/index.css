@@ -35,6 +35,12 @@
     background-image: url('./assets/temp4.png');
     height: 80vh;
 }
+
+p{
+    color:#fff3e0;
+}
+
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   
     #top, .picWelcome, .picAbout, .picContact{

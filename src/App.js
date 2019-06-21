@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Welcome from './components/Welcome'
 import About from './components/About'
 import NavbarPage from "./components/test";
-import logo from './assets/3X1.5.png'
+import logo from './assets/Logo.svg'
 import {LogoTag, LogoWrapper} from './components/MyStyled'
 
 
@@ -22,8 +22,8 @@ class App extends Component {
       <MDBContainer className='app'>
         {/* <Navbar /> */}
         {/* <NavbarPage/> */}
-        <MDBRow id='top' center>
-          <MDBCol middle="true" className="text-center">
+        <MDBRow id='top' center style={{padding:0}}>
+          <MDBCol middle="true" className="text-center" style={{padding:0}}>
             <LogoWrapper>
             <LogoTag src={logo} alt='eKnowledge Solutions Logo'/>
             </LogoWrapper>

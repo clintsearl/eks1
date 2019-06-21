@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import './About.css'
-import {Wrapper} from './MyStyled'
-import eric from '../assets/temp-eric.png'
-import anne from '../assets/temp-anne.png'
+import {Wrapper, P_Content} from './MyStyled'
+import eric from '../assets/temp-ericW.png'
+import anne from '../assets/temp-anneW.png'
 
 
 
@@ -45,22 +45,22 @@ function About() {
             <h3 >About Us</h3>
             <Profile>
                 <ClickPic href="/EricProfile"><Pic src={eric} alt='Photo of Eric'/></ClickPic>
-                <p style={{gridArea: "info1" }}>I'm Cool</p>
-                <p style={{gridArea: "info2" }}>I'm Cool</p>
-                <p style={{gridArea: "info3" }}>I'm Cool</p>
-                <p style={{gridArea: "info4" }}>I'm Cool</p>
-                <p style={{gridArea: "info5" }}>I'm Cool</p>
-                <p style={{gridArea: "info6" }}>I'm Cool</p>
+                <P_Content style={{gridArea: "info1" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info2" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info3" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info4" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info5" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info6" }}>I'm Cool</P_Content>
                 
             </Profile>
             <Profile>
                 <ClickPic href="/AnneProfile"><Pic src={anne} alt='Photo of Anne'/></ClickPic>
-                <p style={{gridArea: "info1" }}>I'm Cool</p>
-                <p style={{gridArea: "info2" }}>I'm Cool</p>
-                <p style={{gridArea: "info3" }}>I'm Cool</p>
-                <p style={{gridArea: "info4" }}>I'm Cool</p>
-                <p style={{gridArea: "info5" }}>I'm Cool</p>
-                <p style={{gridArea: "info6" }}>I'm Cool</p>
+                <P_Content style={{gridArea: "info1" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info2" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info3" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info4" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info5" }}>I'm Cool</P_Content>
+                <P_Content style={{gridArea: "info6" }}>I'm Cool</P_Content>
             </Profile>
 
         </Wrapper>
