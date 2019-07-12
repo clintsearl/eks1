@@ -2,6 +2,10 @@ import styled from 'styled-components'
 import temp1 from '../assets/temp1.png'
 
 
+export const LogoRed = 	'#e12338';
+export const LogoBlue =	'#e12338';
+export const ColorWhite = '#FFFFFF'
+export const ColorBlack ='#000000'
 
 export const Wrapper = styled.div`
     background-color:#000000;
@@ -13,8 +17,9 @@ export const Wrapper = styled.div`
 //   P_ denotes the Profile page
 
 export const P_Wrapper = styled.div`
-    background-color:#000000;
+    background-color:${ColorBlack};
     width:80vw;
+    min-height:80vh;
     margin-top:auto;
     margin-right:auto;
     margin-left:auto;
@@ -80,13 +85,13 @@ export const P_Header = styled.h1`
     grid-column:2 / 3;
     grid-row: 3 / 4;
     justify-self: center;
-    color: #c62828;
+    color: ColorWhite;
 `
 export const P_Content = styled.p`
     grid-column: 2 / 3;
     grid-row: 4 / 5;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: #fff3e0;
+    color: ColorWhite;
 `
 //Navbar
 
@@ -94,4 +99,18 @@ export const Navigation = styled.nav`
     background-color:transparent;
 
 
+`
+export const NavItem = styled.div`
+    
+`
+
+
+export const NavLogo = styled.img`
+    display:flex;
+    flex-grow: 1;
+    width:100px;
+    height:50px;
+    padding:1px;
+    margin-right:5%;
+    margin-left:95%;
 `

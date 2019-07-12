@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem} from 'mdbreact';
-
-const color = 'black'
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem} from 'mdbreact'; 
+import {NavLogo} from '../components/MyStyled'
+import logo from '../assets/Logo.svg'
+const LogoRed= "black"
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -29,7 +30,9 @@ class Navbar extends React.Component {
     return (
       
       
-            <MDBNavbar color={color} dark fixed='top' expand="md" scrolling transparent >
+            <MDBNavbar 
+            color={LogoRed}
+             dark fixed='top' expand="md" scrolling transparent >
               {/* responsive */}
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={()=>{this.openNav()}} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
@@ -54,6 +57,12 @@ class Navbar extends React.Component {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
+            {/* <MDBNavItem className="text-justify">
+                <NavLogo src={logo}/>
+            </MDBNavItem>
+            https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
+            in time shrink the logo to go up in the navbar
+            */}
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>

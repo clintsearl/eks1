@@ -13,7 +13,7 @@ import {LogoTag, LogoWrapper} from './components/MyStyled'
 
 const Wrapper = styled.div`
   background-color:grey;
-  hight:200%;
+  height:200%;
 `
 class App extends Component {
   render() {
