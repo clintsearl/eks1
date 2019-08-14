@@ -9,8 +9,8 @@ function NavbarPage(){
             
              
            
-              {!this.state.isWideEnough && <MDBNavbarToggler onClick={()=>{this.openNav()}} />}
-              <MDBCollapse isOpen={this.state.collapse} navbar>
+              {/* {!this.state.isWideEnough && <MDBNavbarToggler onClick={()=>{this.openNav()}} />} */}
+              {/* <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem >
                   <a href='/#top' onClick={()=>{this.closeNav()}}><MDBNavbarBrand><strong>Home</strong></MDBNavbarBrand></a>
@@ -31,19 +31,19 @@ function NavbarPage(){
                   <MDBDropdownItem href="/EricProfile">Eric</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
-            </MDBNavItem>
+            </MDBNavItem> */}
             {/* <MDBNavItem className="text-justify">
                 <NavLogo src={logo}/>
             </MDBNavItem>
             https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
             in time shrink the logo to go up in the navbar
             */}
-                </MDBNavbarNav>
-              </MDBCollapse>
-            </MDBNavbar>
+                {/* </MDBNavbarNav>
+              </MDBCollapse> */}
+            {/* </MDBNavbar> */}
         </Navigation>
 
-    </header>
+    /// </header>
    )
 }
 export default NavbarPage;
