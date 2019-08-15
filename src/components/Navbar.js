@@ -52,6 +52,7 @@ class Navbar extends React.Component {
                   <span className="mr-2">More About Us</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
+                  <MDBDropdownItem href="/About">E Knowledge Solutions</MDBDropdownItem>
                   <MDBDropdownItem href="/AnneProfile">Anne</MDBDropdownItem>
                   <MDBDropdownItem href="/EricProfile">Eric</MDBDropdownItem>
                 </MDBDropdownMenu>

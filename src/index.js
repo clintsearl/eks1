@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import NavbarPage from "./components/test";
 import EricProfile from "./components/EricProfile"
 import AnneProfile from './components/AnneProfile'
+import AboutEks from "./components/AboutEks";
 
 ReactDOM.render( 
     <div>
@@ -19,6 +20,7 @@ ReactDOM.render(
     <Router>
         <Switch>
               <Route exact path='/' component={App}/>
+              <Route path='/About' component={AboutEks}/>
               <Route path='/EricProfile' component={EricProfile}/>
               <Route path='/AnneProfile' component={AnneProfile}/>
             </Switch>
