@@ -25,7 +25,7 @@ export const P_Wrapper = styled.div`
     margin-left:auto;
     display:grid;
     grid-template-columns:1fr 3fr 1fr;
-    grid-template-rows:1fr 3fr 2fr;
+    grid-template-rows: 1fr 1fr 5fr ;
 
 
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -67,10 +67,10 @@ export const LogoTag = styled.img`
 `
 export const P_Pic = styled.img`
     width:250px;
-    height:250px;
+    height:auto;
     padding:20px;
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    /* grid-row: 2 / 3; */
     justify-self: center;
 
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -83,13 +83,16 @@ export const P_Pic = styled.img`
 `
 export const P_Header = styled.h1`
     grid-column:2 / 3;
-    grid-row: 3 / 4;
+    
     justify-self: center;
+    align-self: center;
+    padding:0;
+    margin:0;
     color: ColorWhite;
 `
 export const P_Content = styled.p`
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: ColorWhite;
 `

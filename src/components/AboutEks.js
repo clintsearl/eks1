@@ -2,12 +2,16 @@ import React from 'react'
 import {P_Wrapper, P_Pic, P_Header, P_Content, Background} from './MyStyled'
 import Logo from '../assets/Logo.svg'
 
+
+
 function AboutEks() {
     return(
         <Background>
         <P_Wrapper >
-           <P_Pic src={Logo} alt="E Knowledge Solutions"/>
-            {/* <P_Header> </P_Header> */}
+           <P_Pic src={Logo} alt="E Knowledge Solutions"
+        //    style={{width: "30%", height: "100%"}}
+           />
+            <P_Header> About Us</P_Header>
             <P_Content>
                <p> We have over 50 years of combined experience providing education, training, and courseware development. We have developed and delivered education, training, and materials for instructor-led classroom courses (synchronous), computer and web-based courses (asynchronous), blended courses, and structured on-the-job training. We create individual courses/classes, education and training series/multi-day courses, full semester courses, and all other training structures. 
                </p>    

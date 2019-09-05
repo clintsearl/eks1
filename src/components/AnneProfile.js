@@ -9,46 +9,8 @@ function AnneProfile() {
         <P_Wrapper >
            <P_Pic src={anne} alt="Anne"/>
             <P_Header>Anne </P_Header>
-            <P_Content>Hey this is all about me here
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione debitis at perspiciatis quos asperiores sed perferendis, enim, itaque id fugiat non, similique rerum. Nam suscipit quam quasi commodi 
-                lorem   lorem
-
-
-
-
-
-
-
-
-
+            <P_Content>Anne Maxwell has over 20 years of training and development experience across a wide array of professions. Able to take on the toughest of material and learn it thoroughly, she loves to learn and is able to gain the trust of her subject matter experts through sincere curiosity and thirst for knowledge.
+               
             </P_Content>
         </P_Wrapper>
         </Background>
