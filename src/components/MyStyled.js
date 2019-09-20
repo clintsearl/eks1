@@ -90,7 +90,7 @@ export const P_Header = styled.h1`
     margin:0;
     color: ColorWhite;
 `
-export const P_Content = styled.p`
+export const Pcontent = styled.p`
     grid-column: 2 / 3;
     
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;

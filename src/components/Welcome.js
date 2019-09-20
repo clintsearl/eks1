@@ -7,8 +7,9 @@ function Welcome() {
     return(
         <Wrapper>         
         
-         <h3 id='welcome'>Welcome</h3>
-        <p>Our Special designations</p>
+         <h2 id='welcome'>Proudly a</h2>
+        <h2><strong>Woman Owned Business</strong></h2>
+        
         </Wrapper>
         
     )

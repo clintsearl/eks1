@@ -1,5 +1,5 @@
 import React from 'react'
-import {P_Wrapper, P_Pic, P_Header, P_Content, Background} from './MyStyled'
+import {P_Wrapper, P_Pic, P_Header, Pcontent, Background} from './MyStyled'
 import Logo from '../assets/Logo.svg'
 
 
@@ -12,7 +12,7 @@ function AboutEks() {
         //    style={{width: "30%", height: "100%"}}
            />
             <P_Header> About Us</P_Header>
-            <P_Content>
+            <Pcontent>
                <p> We have over 50 years of combined experience providing education, training, and courseware development. We have developed and delivered education, training, and materials for instructor-led classroom courses (synchronous), computer and web-based courses (asynchronous), blended courses, and structured on-the-job training. We create individual courses/classes, education and training series/multi-day courses, full semester courses, and all other training structures. 
                </p>    
             <h4>What types of courseware development have we created?</h4>
@@ -50,7 +50,7 @@ function AboutEks() {
                 <p>
                 Our goal is to continue to provide world-class education, training, and training development services by winning and professionally managing government and private sector contracts. 
                 </p>
-            </P_Content>
+            </Pcontent>
         </P_Wrapper>
         </Background>
     )
